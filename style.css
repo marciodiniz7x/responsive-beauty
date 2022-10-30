@@ -85,6 +85,40 @@ body {
 
 }
 
+.capa {
+    margin-top: 2vh;
+    position: absolute;
+    max-width: 600px;
+    max-height: 300px;
+    width: 80vw;
+    height: 65vw;
+    background-image: url(./img/gif.gif);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(45deg, rgb(255, 0, 0), rgb(247, 14, 142)); */
+    left: 50vw;
+    transform: translateX(-56%);
+    border-radius: 15px;
+    
+}
+
+.traco {
+    position: absolute;
+    width: 70vw;
+    height: 10vw;
+    background-color: #001030;
+    bottom: 3vw;
+    left: 50vw;
+    transform: translateX(-60%);
+}
+
+@media(min-width: 632px) {
+    .traco {
+        display: none;
+    }
+}
+
 h1 {
 
     text-align: center;
