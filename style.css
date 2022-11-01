@@ -129,10 +129,9 @@ body {
     min-width: 150px;
 }
 
-@media(min-width: 632px) {
-    .traco {
-        display: none;
-    }
+.botao:hover {
+    background-color: #ea00ff;
+    border: none;
 }
 
 h1 {
