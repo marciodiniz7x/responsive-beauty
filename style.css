@@ -108,15 +108,7 @@ body {
     
 }
 
-.traco {
-    position: absolute;
-    width: 70vw;
-    height: 10vw;
-    background-color: #001030;
-    bottom: 3vw;
-    left: 50vw;
-    transform: translateX(-60%);
-}
+
 
 @media(min-width: 632px) {
     .traco {
