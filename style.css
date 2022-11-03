@@ -111,19 +111,23 @@ body {
 }
 
 .capa {
-  
+    
+    margin: 0 auto;
+    left: 0;
+    top: 20px;
+    right: 0;
+    
     margin-top:25vh;
     position: absolute;
     max-width: 600px;
     max-height: 300px;
-    width: 85vw;
-    height: 70vw;
+    width: 80vw;
+    height: 40vw;
     background-image: url(./img/capa.jpg);
     background-position: center;
-    background-size: 70vh;
+    background-size: 100%;
     background-repeat: no-repeat;
-    left: 50vw;
-    transform: translateX(-56%);
+    
     border-radius: 15px;
     
 }
