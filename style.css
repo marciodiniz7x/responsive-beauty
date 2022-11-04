@@ -28,6 +28,7 @@ body {
     background: linear-gradient(45deg, #ff0000, rgb(247, 14, 142));
     border-radius: 50%;
     left: 80vw;
+    top: -2vh;
 }
 .circle3 {
     position: absolute;
@@ -36,7 +37,7 @@ body {
     background: linear-gradient(45deg, rgb(68, 0, 255), rgb(247, 14, 142));
     border-radius: 50%;
     left: 75vw;
-    top: 85vh;
+    top: 80vh;
 }
 .circle4 {
     position: absolute;
@@ -45,7 +46,7 @@ body {
     background: linear-gradient(45deg, rgb(255, 0, 0), rgb(247, 14, 142));
     border-radius: 50%;
     left: 25vw;
-    top: 90vh;
+    top: 85vh;
 }
 .circle5 {
     position: absolute;
