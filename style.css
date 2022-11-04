@@ -12,42 +12,6 @@ body {
     /* background-image: url(./img/background.png); */
 }
 
-
-.logoNome {
-    margin: 0 auto;
-    position: absolute;
-    width: 25vh; 
-    top: 50px;
-
-    left: 50vw;
-    transform: translateX(-40%);
-
-    z-index: 2;
-}
-
-.nomeSite {
-    margin-top: 2vh;
-    font-size: 5vh;
-    color: white;
-    text-shadow: 1px 1px 5px;
-    margin-left: -2vh;
-    font-family: 'Nature Beauty Personal Use';
-}
-
-.imagemLogo {
-    position: absolute;
-    width: 10vh; 
-    margin-left: 7vh;
-}
-
-
-
-@media (min-width: 1080px) {
-    .logoNome {
-        display:  none;
-    }
-}
-
 .circle {
     position: absolute;
     width: 150vh;
@@ -72,7 +36,7 @@ body {
     background: linear-gradient(45deg, rgb(68, 0, 255), rgb(247, 14, 142));
     border-radius: 50%;
     left: 75vw;
-    top: 75vh;
+    top: 85vh;
 }
 .circle4 {
     position: absolute;
@@ -81,7 +45,7 @@ body {
     background: linear-gradient(45deg, rgb(255, 0, 0), rgb(247, 14, 142));
     border-radius: 50%;
     left: 25vw;
-    top: 80vh;
+    top: 90vh;
 }
 .circle5 {
     position: absolute;
@@ -102,7 +66,7 @@ body {
     height: 85vh;
     border-radius: 20px;
     
-    top: 10vh;
+    top: 5vh;
     bottom: 0;
     left: 0;
     right: 0;
